@@ -78,7 +78,7 @@ console.log(discountPrice);
 
 // practice homework 
 
-// 1. income and spend 
+// 1. ধর, তুই 100 টাকা আয় করেছিস । তার মধ্যে 40 টাকা খরচ করছিস ।বাকি টাকা কত রইল, সেটা বের করার এ প্রোগ্রাম লিখ ।
 
 const income = 100;
 const spend = 40;
@@ -87,14 +87,14 @@ const remain = income - spend;
 
 console.log(remain);
 
-// 2. using pencil
+// 2. তোর কাছে 10টা পেন্সিল আছে । প্রতিবার তুই একসাথে 2টা পেন্সিল ব্যবহার করতে পারবি? প্রোগ্রাম লিখে বের কর ।
 
 const pencil = 10;
 const usingTogether = 2;
 
 console.log(pencil / usingTogether);
 
-// 3. you have 60 tk.
+// 3. তোর কাছে 60 টাকা আছে । তুই যদি প্রতিবার 15 টাকা করে খরচ করিস, কয়বার খরচ করতে পারবি? এবং খরচের পর কয় টাকা বাকি থাকবে,সেটা বের করতে একটা প্রোগ্রাম লিখ।
 
 const youHave = 60;
 const spendAtATime = 15;
@@ -108,14 +108,14 @@ console.log(totalSpend);
 
 console.log(youHave - totalSpend);
 
-// 4. two string add together 
+// 4. ধর, তুই দুইটা স্ট্রিং লিখলি 'Hello' আর 'World'। এই দুইটা স্ট্রিংকে একসাথে জোড়া দিয়ে কীভাবে "HelloWorld" বানানো যায়, সেটা দেখানোর জন্য একটা প্রোগ্রাম লিখ।
 
 const first2 = 'Hello';
 const second2 = "World";
 
 console.log(first2 + second2);
 
-// 5. 153 kg rice and 261 lentil 
+// 5. তুই 153 কেজি চাল আর 261 কেজি ডাল কিনলি, তাহলে কয় কেজি কিনেছিস? মোট কেজি বের করার একটা প্রোগ্রাম লিখ।
 
 const rice = 153;
 const lentil = 261; 
@@ -123,7 +123,7 @@ const totalKg = rice + lentil;
 
 console.log(totalKg);
 
-// 6. you have 500 tk 
+// 6. তোর কাছে 500 টাকা আছে, প্রতিবার তুই 75 টাকা খরচ করবি। কয়বার খরচ করতে পারবি আর শেষে কয় টাকা বাকি থাকবে, সেটা বের করার একটা প্রোগ্রাম লিখ।
 
 const youHaveTk = 500;
 const everyTimeSpend = 75;
@@ -132,28 +132,28 @@ const howManyBar = youHaveTk / everyTimeSpend;
 console.log(howManyBar);
 console.log(500 % 75);
 
-// 7. 8 divided by 3
+// 7. তুই 8-কে 3 দিয়ে ভাগ দিলে ভাগফল কত আর ভাগশেষ কত, সেটা বের করার জন্য একটা প্রোগ্রাম লিখ।
 
 const eight = 8; 
 const three = 3;
 console.log(eight / three);
 console.log(8 % 3);
 
-// 8. 50 divided by 9
+// 8. তুই 50-কে 9 দিয়ে ভাগ দিলে শুধু ভাগশেষ কত, সেটা বের করার জন্য একটা প্রোগ্রাম লিখ।
 
 const fifty = 50; 
 const nine = 9;
 console.log(fifty / nine);
 console.log(50 % 9);
 
-// 9. Bangla desh write together 
+// 9. তুই "Bangla" আর "desh" স্ট্রিং যোগ করে "Bangladesh" বানাতে চাস। কিভাবে করবি, সেটা দেখার জন্য একটা প্রোগ্রাম লিখ।
 
 const namePart1 = "Bangla";
 const namePartLast = "desh";
 
 console.log(namePart1 + namePartLast);
 
-// 10. daily rice needs 
+// 10. ধর, একদিন ঘুম থেকে উঠে খিদার চোটে তুই ছোটখাটো 
 
 const dailyNeedRice = 4;
 const totalRice = 480;
