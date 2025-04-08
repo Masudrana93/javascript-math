@@ -78,4 +78,39 @@ console.log(discountPrice);
 
 // practice homework 
 
-1. 
+// 1. income and spend 
+
+const income = 100;
+const spend = 40;
+
+const remain = income - spend;
+
+console.log(remain);
+
+// 2. using pencil
+
+const pencil = 10;
+const usingTogether = 2;
+
+console.log(pencil / usingTogether);
+
+// 3. you have 60 tk.
+
+const youHave = 60;
+const spendAtATime = 15;
+const howManyTimeSpend = youHave / spendAtATime;
+
+console.log(howManyTimeSpend);
+
+const totalSpend = spendAtATime * howManyTimeSpend;
+
+console.log(totalSpend);
+
+console.log(youHave - totalSpend);
+
+// 4. two string add together 
+
+const first2 = 'Hello';
+const second2 = "World";
+
+console.log(first2 + second2);
