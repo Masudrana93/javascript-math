@@ -114,3 +114,57 @@ const first2 = 'Hello';
 const second2 = "World";
 
 console.log(first2 + second2);
+
+// 5. 153 kg rice and 261 lentil 
+
+const rice = 153;
+const lentil = 261; 
+const totalKg = rice + lentil;
+
+console.log(totalKg);
+
+// 6. you have 500 tk 
+
+const youHaveTk = 500;
+const everyTimeSpend = 75;
+const howManyBar = youHaveTk / everyTimeSpend;
+
+console.log(howManyBar);
+console.log(500 % 75);
+
+// 7. 8 divided by 3
+
+const eight = 8; 
+const three = 3;
+console.log(eight / three);
+console.log(8 % 3);
+
+// 8. 50 divided by 9
+
+const fifty = 50; 
+const nine = 9;
+console.log(fifty / nine);
+console.log(50 % 9);
+
+// 9. Bangla desh write together 
+
+const namePart1 = "Bangla";
+const namePartLast = "desh";
+
+console.log(namePart1 + namePartLast);
+
+// 10. daily rice needs 
+
+const dailyNeedRice = 4;
+const totalRice = 480;
+
+const howmanyDaysSpend = totalRice / dailyNeedRice;
+
+console.log(howmanyDaysSpend);
+
+const oneMonth = 30;
+
+const totalMonthSpend = howmanyDaysSpend / oneMonth;
+
+console.log(totalMonthSpend);
+
